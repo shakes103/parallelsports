@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import IsotopeNext from '../components/demo';
 //import styles from "../styles/Home.module.css";
 import Hero from '../components/hero';
 import Layout from '../components/Layout';
@@ -20,6 +21,7 @@ export default function Home() {
             <MainOne />
             <MainTwo />
             <MainThree />
+            <IsotopeNext />
         </main>
         </Layout>
         </>
